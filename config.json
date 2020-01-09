@@ -1,0 +1,93 @@
+{
+
+ "Account": {
+     "Username": "dzulashter",
+     "Password": "gisting89"
+     },
+ "Target Profit": "5000.00000000",
+ "Target Win": "2500.00000000",
+ "Lose Target": "0",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "1",
+     "Base Bet": "1",
+     "Max Bet": "OFF",
+     "Chance": "83.84",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "2",
+              "If Win": "3"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2.5",
+     "Reset If Win": "1",
+     "Reset If Profit": "OFF",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "Mining Chance 45 %",
+     "Base Bet": "0.01",
+     "Max Bet": "Off",
+     "Chance": "45",
+     "Random Chance": {
+          "Toggle": "off",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.777777777",
+     "Reset If Win": "1",
+     "Reset If Profit": "OFF",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "Mining Chance 7 %",
+     "Base Bet": "0.001",
+     "Max Bet": "OFF",
+     "Chance": "7",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "1",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "OFF",
+     "Interval": "100"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "ON",
+       "If Balance": "15002.00000000",
+       "Wallet Address": "DS3JwKwNtBWUqd93XU6Pd32tuWgRj2iroc",
+       "Amount": "500.00000000"
+      },
+  "User-Agent": "Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36"
+
+}
